@@ -13,6 +13,10 @@ export default function App() {
   const device = cameraPosition == 'front' ? devices.front : devices.back
   const frameProcessor = useFrameProcessor( (frame) => {
     'worklet'
+    const data = scanOCR(frame)
+
+    'worklet'
+    console.log(data)
   }, [])
 
   function handleToggleCameraPosition(){
