@@ -22,7 +22,8 @@
       "infoPlist": {
         "NSCameraUsageDescription": "$(PRODUCT_NAME) needs access to your Camera.",
         "NSMicrophoneUsageDescription": "$(PRODUCT_NAME) needs access to your Microphone."
-      }
+      },
+      "bundleIdentifier": "com.edusilva.nativecameravision1"
     },
     "android": {
       "adaptiveIcon": {
@@ -47,6 +48,11 @@
           "microphonePermissionText": "$(PRODUCT_NAME) needs access to your Microphone."
         }
       ]
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "b9864f26-7ea8-490d-9d32-caf7d5bfc704"
+      }
+    }
   }
 }
